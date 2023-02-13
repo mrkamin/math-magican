@@ -1,11 +1,7 @@
-// eslint-disable-next-line
 import React from 'react';
-// eslint-disable-next-line
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// eslint-disable-next-line
 import App from './App';
-// eslint-disable-next-line
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
