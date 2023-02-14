@@ -88,7 +88,7 @@
 
 > 
 
-- [Live Demo Link]()
+- [Live Demo Link](the Link will add later)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,7 +174,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> The design that was given to me was designed by Microverse and the design that I was given is here . I tried to follow the similar structure.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -190,6 +190,6 @@ If you like this project...
 
 ## 📝 License <a name="license"></a>
 
-- This project is [MIT](https://github.com/V-Blaze/math-magicians/blob/development/LICENSE) licensed.
+- This project is [MIT](https://github.com/mrkamin/math-magican/blob/components/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
