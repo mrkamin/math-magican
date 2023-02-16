@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../Logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 const Calculator = () => {
   const [calcData, setCalcData] = useState({
     total: null,
