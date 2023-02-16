@@ -3,26 +3,22 @@ import './Calculator.css';
 import calculate from '../Logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+const Calculator = () => {
+   const [calcData, setCalcData] = useState ({
+    total: null,
+    next: null,
+    operation: null,
+  }); 
+  
 
-  calculateHandling = (e) => {
+  const calculateHandling = (e) => {
     const buttonName = e.target.name;
 
-    return this.setState((obj) => calculate(obj, buttonName));
-  }
+    return setCalcData((obj) => calculate(obj, buttonName));
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-    const outputNumber = `${total}${operation}${next}`.replace(/null/g, '');
-    const output = outputNumber.replace(/undefined/g, '');
+    const { total, next, operation } = calcData;
+    const outputNumber = `${total}${operation}${next}`.replace(/null/g, '').replace(/undefined/g, '');
 
     return (
       <div className="calculator-grid">
@@ -50,7 +46,7 @@ class Calculator extends React.Component {
         <button type="button" className="opration-symbol" name="=" onClick={this.calculateHandling}>=</button>
       </div>
     );
-  }
-}
+  };
+
 
 export default Calculator;
