@@ -1,0 +1,8 @@
+.quote {
+  padding: 20% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: #303050;
+}

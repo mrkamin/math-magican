@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 15% 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-style: italic;
+  color: #303050;
+}
+
+.home-paragraph {
+  font-size: medium;
+  color: #303050;
+}
