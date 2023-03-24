@@ -88,7 +88,7 @@
 
 > 
 
-- [Live Demo Link](the Link will add later)
+- [Live Demo Link]([netfily](https://musical-monstera-fb67ff.netlify.app/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
